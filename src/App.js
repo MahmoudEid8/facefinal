@@ -20,11 +20,11 @@ function App() {
   const isIdle = useIdle({ timeToIdle: 2500 });
 
   useEffect(() => {
-    // if (isIdle) {
-    //   handleShow();
-    // } else {
-    //   handleClose();
-    // }
+    if (isIdle) {
+      handleShow();
+    } else {
+      handleClose();
+    }
   }, [isIdle]);
   return (
     <main>
