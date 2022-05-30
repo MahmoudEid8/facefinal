@@ -68,9 +68,9 @@ const FormComp = () => {
             onChange={(e) => setDepartment(e.target.value)}
           >
             <option value="">Select Department</option>
-            <option value="dep 1">Department One</option>
-            <option value="dep 2">Department Two</option>
-            <option value="dep 3">Department Three</option>
+            <option value="dep 1">Sales dep</option>
+            <option value="dep 2">Customer relationship dep</option>
+            <option value="dep 3">Collection depa</option>
           </Form.Select>
         </Col>
         <Col className="spacer-y">
@@ -80,9 +80,9 @@ const FormComp = () => {
             onChange={(e) => setSalesPerson(e.target.value)}
           >
             <option value="">Select Sales Person</option>
-            <option value="sales person 1">Person One</option>
-            <option value="sales person 2">Person Two</option>
-            <option value="sales person 3">Person Three</option>
+            <option value="sales person 1">Sales Rep. 1</option>
+            <option value="sales person 2">C R Rep. 1</option>
+            <option value="sales person 3">Coll. 1</option>
           </Form.Select>
         </Col>
         <Col sm={12}>
